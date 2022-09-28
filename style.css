@@ -13,6 +13,10 @@ DARK BLUE: #1D3557 */
     --DARKBLUE: #cfbaf0;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0 auto;
@@ -60,7 +64,7 @@ img {
 }
 
 .top-banner{
-    background-image: linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%)    ;
+    background-image: linear-gradient(177deg, #73e717 0%, #eb1eae 35%, #e9751b 65%, #73e717 85%, #b8b8bd 96%);
     height: 50px;
 }
 .top-banner h1{
@@ -110,7 +114,8 @@ img:hover{
 }
 
 .card {
-    width: 400px;
+    width: 350px;
+    height: 150px;
     margin: 15px auto;
     padding: 20px;
     display: flex;
@@ -137,7 +142,8 @@ p{
 }
 
 #card{
-background-image: linear-gradient(177deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%);
+background-image: linear-gradient(177deg, #73e717 0%, #eb1eae 35%, #e9751b 65%, #73e717 85%, #b8b8bd 96%);;
 height: 230px;
-margin-top: -17px;
+/* margin-top: -17px; */
+padding: 20px;
 }
